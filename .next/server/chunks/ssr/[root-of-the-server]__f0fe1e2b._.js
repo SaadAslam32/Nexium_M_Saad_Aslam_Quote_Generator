@@ -208,7 +208,7 @@ function CardFooter({ className, ...props }) {
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.v(JSON.parse("[{\"topic\":\"life\",\"quote\":\"Life is what happens when you’re busy making other plans.\"},{\"topic\":\"life\",\"quote\":\"The purpose of our lives is to be happy.\"},{\"topic\":\"life\",\"quote\":\"Life is short, and it’s up to you to make it sweet.\"},{\"topic\":\"motivation\",\"quote\":\"Push yourself, because no one else is going to do it for you.\"},{\"topic\":\"motivation\",\"quote\":\"Success doesn’t just find you. You have to go out and get it.\"},{\"topic\":\"motivation\",\"quote\":\"Great things never come from comfort zones.\"},{\"topic\":\"success\",\"quote\":\"Success is not in what you have, but who you are.\"},{\"topic\":\"success\",\"quote\":\"Don’t be afraid to give up the good to go for the great.\"},{\"topic\":\"success\",\"quote\":\"Success usually comes to those who are too busy to be looking for it.\"}]"));}}),
+__turbopack_context__.v(JSON.parse("[{\"topic\":\"life\",\"quote\":\"Life is what happens when you’re busy making other plans.\"},{\"topic\":\"life\",\"quote\":\"The purpose of our lives is to be happy.\"},{\"topic\":\"life\",\"quote\":\"Life is really simple, but we insist on making it complicated.\"},{\"topic\":\"success\",\"quote\":\"Success is not in what you have, but who you are.\"},{\"topic\":\"success\",\"quote\":\"Don’t be afraid to give up the good to go for the great.\"},{\"topic\":\"success\",\"quote\":\"Success usually comes to those who are too busy to be looking for it.\"},{\"topic\":\"motivation\",\"quote\":\"Push yourself, because no one else is going to do it for you.\"},{\"topic\":\"motivation\",\"quote\":\"Success doesn’t just find you. You have to go out and get it.\"},{\"topic\":\"motivation\",\"quote\":\"Great things never come from comfort zones.\"},{\"topic\":\"happiness\",\"quote\":\"Happiness is not something ready-made. It comes from your own actions.\"},{\"topic\":\"happiness\",\"quote\":\"For every minute you are angry you lose sixty seconds of happiness.\"},{\"topic\":\"happiness\",\"quote\":\"The best way to cheer yourself is to try to cheer someone else up.\"},{\"topic\":\"friendship\",\"quote\":\"A real friend is one who walks in when the rest of the world walks out.\"},{\"topic\":\"friendship\",\"quote\":\"Friendship is the only cement that will ever hold the world together.\"},{\"topic\":\"friendship\",\"quote\":\"True friends are never apart, maybe in distance but never in heart.\"},{\"topic\":\"love\",\"quote\":\"Love all, trust a few, do wrong to none.\"},{\"topic\":\"love\",\"quote\":\"Where there is love there is life.\"},{\"topic\":\"love\",\"quote\":\"To love and be loved is to feel the sun from both sides.\"},{\"topic\":\"dreams\",\"quote\":\"All our dreams can come true if we have the courage to pursue them.\"},{\"topic\":\"dreams\",\"quote\":\"The future belongs to those who believe in the beauty of their dreams.\"},{\"topic\":\"dreams\",\"quote\":\"Dream big and dare to fail.\"},{\"topic\":\"courage\",\"quote\":\"Courage is grace under pressure.\"},{\"topic\":\"courage\",\"quote\":\"It takes courage to grow up and become who you really are.\"},{\"topic\":\"courage\",\"quote\":\"Courage starts with showing up and letting ourselves be seen.\"},{\"topic\":\"wisdom\",\"quote\":\"Knowing yourself is the beginning of all wisdom.\"},{\"topic\":\"wisdom\",\"quote\":\"Turn your wounds into wisdom.\"},{\"topic\":\"wisdom\",\"quote\":\"Silence is the sleep that nourishes wisdom.\"},{\"topic\":\"hope\",\"quote\":\"Hope is being able to see that there is light despite all the darkness.\"},{\"topic\":\"hope\",\"quote\":\"Once you choose hope, anything’s possible.\"},{\"topic\":\"hope\",\"quote\":\"Hope is the only thing stronger than fear.\"},{\"topic\":\"faith\",\"quote\":\"Faith is taking the first step even when you don’t see the whole staircase.\"},{\"topic\":\"faith\",\"quote\":\"Keep the faith. The most amazing things in life tend to happen right at the moment you’re about to give up hope.\"},{\"topic\":\"faith\",\"quote\":\"Faith is the bird that feels the light and sings when the dawn is still dark.\"},{\"topic\":\"kindness\",\"quote\":\"No act of kindness, no matter how small, is ever wasted.\"},{\"topic\":\"kindness\",\"quote\":\"Kindness is a language which the deaf can hear and the blind can see.\"},{\"topic\":\"kindness\",\"quote\":\"Carry out a random act of kindness, with no expectation of reward.\"},{\"topic\":\"learning\",\"quote\":\"Live as if you were to die tomorrow. Learn as if you were to live forever.\"},{\"topic\":\"learning\",\"quote\":\"Tell me and I forget. Teach me and I remember. Involve me and I learn.\"},{\"topic\":\"learning\",\"quote\":\"Change is the end result of all true learning.\"},{\"topic\":\"growth\",\"quote\":\"Strength and growth come only through continuous effort and struggle.\"},{\"topic\":\"growth\",\"quote\":\"Growth is never by mere chance; it is the result of forces working together.\"},{\"topic\":\"growth\",\"quote\":\"Don’t go through life, grow through life.\"},{\"topic\":\"mindfulness\",\"quote\":\"Mindfulness is the aware, balanced acceptance of the present experience.\"},{\"topic\":\"mindfulness\",\"quote\":\"The present moment is filled with joy and happiness.\"},{\"topic\":\"mindfulness\",\"quote\":\"Do every act of your life as though it were the very last act of your life.\"},{\"topic\":\"freedom\",\"quote\":\"Freedom lies in being bold.\"},{\"topic\":\"freedom\",\"quote\":\"The secret of happiness is freedom, and the secret of freedom is courage.\"},{\"topic\":\"freedom\",\"quote\":\"Freedom is the open window through which pours the sunlight of the human spirit.\"},{\"topic\":\"gratitude\",\"quote\":\"Gratitude turns what we have into enough.\"},{\"topic\":\"gratitude\",\"quote\":\"Start each day with a positive thought and a grateful heart.\"},{\"topic\":\"gratitude\",\"quote\":\"Gratitude is the fairest blossom which springs from the soul.\"}]"));}}),
 "[project]/app/page.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -230,95 +230,116 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$quotes$2e$json__$28$
 ;
 ;
 ;
+const typedQuotes = __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$quotes$2e$json__$28$json$29$__["default"];
 function Home() {
     const [topic, setTopic] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
     const [results, setResults] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
-    const handleSearch = ()=>{
-        const filtered = __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$quotes$2e$json__$28$json$29$__["default"].filter((q)=>q.topic.toLowerCase() === topic.toLowerCase());
-        setResults(filtered.slice(0, 3)); // Limit to 3 quotes
+    const [hasSearched, setHasSearched] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        const filtered = typedQuotes.filter((q)=>q.topic.toLowerCase().includes(topic.toLowerCase()));
+        setResults(filtered.slice(0, 3));
+        setHasSearched(true); // ✅
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "max-w-xl mx-auto p-6",
+        className: "min-h-screen flex flex-col items-center justify-center p-6 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "text-2xl font-bold mb-4",
-                children: "Quote Generator"
+                className: "text-4xl font-bold mb-8 text-center text-gray-800",
+                children: "✨ Quote Generator ✨"
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 19,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex gap-2 mb-6",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                onSubmit: handleSubmit,
+                className: "flex flex-col sm:flex-row items-center gap-4 mb-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
-                        placeholder: "Enter topic (e.g. life, motivation)",
+                        type: "text",
+                        placeholder: "Enter a topic (e.g. life, motivation)",
                         value: topic,
+                        className: "w-72 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400",
                         onChange: (e)=>setTopic(e.target.value)
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 21,
+                        lineNumber: 43,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
-                        onClick: handleSearch,
-                        children: "Search"
+                        type: "submit",
+                        className: "px-6 py-2 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition duration-300",
+                        children: "Get Quotes"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 22,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 20,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             results.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "space-y-4",
+                className: "space-y-4 w-full max-w-xl",
                 children: results.map((q, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
+                        className: "shadow-lg rounded-lg border border-gray-200 bg-white hover:shadow-xl transition duration-300",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
-                            className: "p-4",
+                            className: "p-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-lg",
+                                    className: "text-xl font-serif text-gray-800",
                                     children: q.quote
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 66,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-muted-foreground mt-2",
+                                    className: "text-sm text-gray-500 mt-4",
                                     children: [
-                                        "Topic: ",
+                                        "— Topic: ",
                                         q.topic
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 31,
+                                    lineNumber: 67,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 29,
+                            lineNumber: 65,
                             columnNumber: 15
                         }, this)
                     }, index, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 28,
+                        lineNumber: 61,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 26,
+                lineNumber: 59,
+                columnNumber: 9
+            }, this),
+            hasSearched && results.length === 0 && topic && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "mt-4 text-gray-600",
+                children: [
+                    'No quotes found for "',
+                    topic,
+                    '".'
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 75,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 18,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }

@@ -249,83 +249,11 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-const quotes = [
-    {
-        topic: 'life',
-        quote: 'Life is what happens when you’re busy making other plans.'
-    },
-    {
-        topic: 'life',
-        quote: 'The purpose of our lives is to be happy.'
-    },
-    {
-        topic: 'life',
-        quote: 'Life is really simple, but we insist on making it complicated.'
-    },
-    {
-        topic: 'motivation',
-        quote: 'Push yourself, because no one else is going to do it for you.'
-    },
-    {
-        topic: 'motivation',
-        quote: 'Success doesn’t just find you. You have to go out and get it.'
-    },
-    {
-        topic: 'motivation',
-        quote: 'Great things never come from comfort zones.'
-    },
-    {
-        topic: 'success',
-        quote: 'Success is not in what you have, but who you are.'
-    },
-    {
-        topic: 'success',
-        quote: 'Don’t be afraid to give up the good to go for the great.'
-    },
-    {
-        topic: 'success',
-        quote: 'Success usually comes to those who are too busy to be looking for it.'
-    },
-    {
-        topic: 'love',
-        quote: 'Love all, trust a few, do wrong to none.'
-    },
-    {
-        topic: 'love',
-        quote: 'Where there is love there is life.'
-    },
-    {
-        topic: 'love',
-        quote: 'To love and be loved is to feel the sun from both sides.'
-    },
-    {
-        topic: 'friendship',
-        quote: 'A real friend is one who walks in when the rest of the world walks out.'
-    },
-    {
-        topic: 'friendship',
-        quote: 'Friendship is the only cement that will ever hold the world together.'
-    },
-    {
-        topic: 'friendship',
-        quote: 'True friends are never apart, maybe in distance but never in heart.'
-    },
-    {
-        topic: 'happiness',
-        quote: 'Happiness is not something ready-made. It comes from your own actions.'
-    },
-    {
-        topic: 'happiness',
-        quote: 'For every minute you are angry you lose sixty seconds of happiness.'
-    },
-    {
-        topic: 'happiness',
-        quote: 'The best way to cheer yourself is to try to cheer someone else up.'
-    }
-];
+const quotes = [];
 function Home() {
     _s();
     const [topic, setTopic] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    // ✅ Add the correct type here:
     const [results, setResults] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const handleSubmit = (e)=>{
         e.preventDefault();
@@ -346,7 +274,7 @@ function Home() {
                         onChange: (e)=>setTopic(e.target.value)
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 50,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -354,13 +282,13 @@ function Home() {
                         children: "Get Quotes"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 56,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 49,
+                lineNumber: 34,
                 columnNumber: 7
             }, this),
             results.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -374,7 +302,7 @@ function Home() {
                                     children: q.quote
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 49,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -385,29 +313,29 @@ function Home() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 65,
+                                    lineNumber: 50,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 63,
+                            lineNumber: 48,
                             columnNumber: 15
                         }, this)
                     }, index, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 62,
+                        lineNumber: 47,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 60,
+                lineNumber: 45,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 48,
+        lineNumber: 33,
         columnNumber: 5
     }, this);
 }

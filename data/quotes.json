@@ -1,11 +1,206 @@
 [
-  { "topic": "life", "quote": "Life is what happens when you’re busy making other plans." },
-  { "topic": "life", "quote": "The purpose of our lives is to be happy." },
-  { "topic": "life", "quote": "Life is short, and it’s up to you to make it sweet." },
-  { "topic": "motivation", "quote": "Push yourself, because no one else is going to do it for you." },
-  { "topic": "motivation", "quote": "Success doesn’t just find you. You have to go out and get it." },
-  { "topic": "motivation", "quote": "Great things never come from comfort zones." },
-  { "topic": "success", "quote": "Success is not in what you have, but who you are." },
-  { "topic": "success", "quote": "Don’t be afraid to give up the good to go for the great." },
-  { "topic": "success", "quote": "Success usually comes to those who are too busy to be looking for it." }
+  {
+    "topic": "life",
+    "quote": "Life is what happens when you’re busy making other plans."
+  },
+  {
+    "topic": "life",
+    "quote": "The purpose of our lives is to be happy."
+  },
+  {
+    "topic": "life",
+    "quote": "Life is really simple, but we insist on making it complicated."
+  },
+  {
+    "topic": "success",
+    "quote": "Success is not in what you have, but who you are."
+  },
+  {
+    "topic": "success",
+    "quote": "Don’t be afraid to give up the good to go for the great."
+  },
+  {
+    "topic": "success",
+    "quote": "Success usually comes to those who are too busy to be looking for it."
+  },
+  {
+    "topic": "motivation",
+    "quote": "Push yourself, because no one else is going to do it for you."
+  },
+  {
+    "topic": "motivation",
+    "quote": "Success doesn’t just find you. You have to go out and get it."
+  },
+  {
+    "topic": "motivation",
+    "quote": "Great things never come from comfort zones."
+  },
+  {
+    "topic": "happiness",
+    "quote": "Happiness is not something ready-made. It comes from your own actions."
+  },
+  {
+    "topic": "happiness",
+    "quote": "For every minute you are angry you lose sixty seconds of happiness."
+  },
+  {
+    "topic": "happiness",
+    "quote": "The best way to cheer yourself is to try to cheer someone else up."
+  },
+  {
+    "topic": "friendship",
+    "quote": "A real friend is one who walks in when the rest of the world walks out."
+  },
+  {
+    "topic": "friendship",
+    "quote": "Friendship is the only cement that will ever hold the world together."
+  },
+  {
+    "topic": "friendship",
+    "quote": "True friends are never apart, maybe in distance but never in heart."
+  },
+  {
+    "topic": "love",
+    "quote": "Love all, trust a few, do wrong to none."
+  },
+  {
+    "topic": "love",
+    "quote": "Where there is love there is life."
+  },
+  {
+    "topic": "love",
+    "quote": "To love and be loved is to feel the sun from both sides."
+  },
+  {
+    "topic": "dreams",
+    "quote": "All our dreams can come true if we have the courage to pursue them."
+  },
+  {
+    "topic": "dreams",
+    "quote": "The future belongs to those who believe in the beauty of their dreams."
+  },
+  {
+    "topic": "dreams",
+    "quote": "Dream big and dare to fail."
+  },
+  {
+    "topic": "courage",
+    "quote": "Courage is grace under pressure."
+  },
+  {
+    "topic": "courage",
+    "quote": "It takes courage to grow up and become who you really are."
+  },
+  {
+    "topic": "courage",
+    "quote": "Courage starts with showing up and letting ourselves be seen."
+  },
+  {
+    "topic": "wisdom",
+    "quote": "Knowing yourself is the beginning of all wisdom."
+  },
+  {
+    "topic": "wisdom",
+    "quote": "Turn your wounds into wisdom."
+  },
+  {
+    "topic": "wisdom",
+    "quote": "Silence is the sleep that nourishes wisdom."
+  },
+  {
+    "topic": "hope",
+    "quote": "Hope is being able to see that there is light despite all the darkness."
+  },
+  {
+    "topic": "hope",
+    "quote": "Once you choose hope, anything’s possible."
+  },
+  {
+    "topic": "hope",
+    "quote": "Hope is the only thing stronger than fear."
+  },
+  {
+    "topic": "faith",
+    "quote": "Faith is taking the first step even when you don’t see the whole staircase."
+  },
+  {
+    "topic": "faith",
+    "quote": "Keep the faith. The most amazing things in life tend to happen right at the moment you’re about to give up hope."
+  },
+  {
+    "topic": "faith",
+    "quote": "Faith is the bird that feels the light and sings when the dawn is still dark."
+  },
+  {
+    "topic": "kindness",
+    "quote": "No act of kindness, no matter how small, is ever wasted."
+  },
+  {
+    "topic": "kindness",
+    "quote": "Kindness is a language which the deaf can hear and the blind can see."
+  },
+  {
+    "topic": "kindness",
+    "quote": "Carry out a random act of kindness, with no expectation of reward."
+  },
+  {
+    "topic": "learning",
+    "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever."
+  },
+  {
+    "topic": "learning",
+    "quote": "Tell me and I forget. Teach me and I remember. Involve me and I learn."
+  },
+  {
+    "topic": "learning",
+    "quote": "Change is the end result of all true learning."
+  },
+  {
+    "topic": "growth",
+    "quote": "Strength and growth come only through continuous effort and struggle."
+  },
+  {
+    "topic": "growth",
+    "quote": "Growth is never by mere chance; it is the result of forces working together."
+  },
+  {
+    "topic": "growth",
+    "quote": "Don’t go through life, grow through life."
+  },
+  {
+    "topic": "mindfulness",
+    "quote": "Mindfulness is the aware, balanced acceptance of the present experience."
+  },
+  {
+    "topic": "mindfulness",
+    "quote": "The present moment is filled with joy and happiness."
+  },
+  {
+    "topic": "mindfulness",
+    "quote": "Do every act of your life as though it were the very last act of your life."
+  },
+  {
+    "topic": "freedom",
+    "quote": "Freedom lies in being bold."
+  },
+  {
+    "topic": "freedom",
+    "quote": "The secret of happiness is freedom, and the secret of freedom is courage."
+  },
+  {
+    "topic": "freedom",
+    "quote": "Freedom is the open window through which pours the sunlight of the human spirit."
+  },
+  {
+    "topic": "gratitude",
+    "quote": "Gratitude turns what we have into enough."
+  },
+  {
+    "topic": "gratitude",
+    "quote": "Start each day with a positive thought and a grateful heart."
+  },
+  {
+    "topic": "gratitude",
+    "quote": "Gratitude is the fairest blossom which springs from the soul."
+  }
 ]
