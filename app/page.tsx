@@ -2,11 +2,9 @@
 
 import { useState } from 'react';
 
-
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-
 
 import quotes from '@/data/quotes.json';
 
@@ -17,17 +15,21 @@ type Quote = {
 
 const typedQuotes = quotes as Quote[];
 
+
+const topics = Array.from(new Set(typedQuotes.map((q) => q.topic)));
+
 export default function Home() {
   const [topic, setTopic] = useState('');
   const [results, setResults] = useState<Quote[]>([]);
   const [hasSearched, setHasSearched] = useState(false);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const filtered = typedQuotes.filter((q) =>
       q.topic.toLowerCase().includes(topic.toLowerCase())
     );
     setResults(filtered.slice(0, 3));
-    setHasSearched(true); // ✅
+    setHasSearched(true);
   };
 
   return (
@@ -77,6 +79,31 @@ export default function Home() {
         </p>
       )}
 
+      {topics.length > 0 && (
+        <div className="mt-12 w-full max-w-xl">
+          <h2 className="text-xl font-semibold mb-4 text-gray-800">
+            Popular Topics
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            {topics.map((topicWord, index) => (
+              <button
+                key={index}
+                className="px-4 py-2 rounded-full bg-blue-100 text-blue-800 hover:bg-blue-200 transition"
+                onClick={() => {
+                  setTopic(topicWord);
+                  const filtered = typedQuotes.filter((q) =>
+                    q.topic.toLowerCase().includes(topicWord.toLowerCase())
+                  );
+                  setResults(filtered.slice(0, 3));
+                  setHasSearched(true);
+                }}
+              >
+                {topicWord}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </main>
   );
 }
